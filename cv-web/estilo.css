@@ -1,0 +1,72 @@
+#imgfran{
+    height: 11rem;
+    border-radius: 40%;
+    width:10rem;
+   /* box-shadow: 1px 1px 2px #000; */
+}
+body{
+    color: rgb(20, 14, 14);
+   background-color: rgb(255, 255, 255);
+   /* background-image: url(imagenes/mosaico.jpg) ; */
+
+}
+a { color: inherit; } 
+
+
+h2{
+    color: rgb(20, 17, 13);;
+}
+#abstract::first-letter{
+    display: inline-block;
+    color: rgb(205, 205, 211);
+    font-size: 4em;
+
+}
+
+#abstract:hover{
+    color: rgb(5, 5, 27);
+    transform: scale(1.2);
+    display: inline-block;
+ 
+
+}
+#skills:hover{
+    color: rgb(5, 5, 27);
+    transform: scale(1.2);
+    display: inline-block;
+    box-shadow: 20px 0px 10px #000;
+}
+#sskills:hover{
+    color: rgb(5, 5, 27);
+    transform: scale(1.2);
+    display: inline-block;
+}
+#idiomas:hover{
+    color: rgb(5, 5, 27);
+    transform: scale(1.2);
+    display: inline-block;
+}
+
+#contacto{
+
+    list-style:none
+
+
+}
+
+ul li i:hover{
+    transform: translateY(-3px)scale(1.05);
+}
+
+ul li i .linkedin:hover{
+    background: blue;
+}
+ul li i.phone{
+    color: rgb(9, 9, 71);
+}
+ul li i.map{
+    color: rgb(9, 9, 78);
+}
+ul li a{
+    color: rgb(9, 9, 78);
+}
