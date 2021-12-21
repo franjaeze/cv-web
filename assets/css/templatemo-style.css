@@ -34,7 +34,11 @@ textarea {
     outline: none;
 }
 
-a,
+a {
+    text-decoration: none;
+    color: inherit;
+
+}
 a:hover {
     text-decoration: none;
 }
