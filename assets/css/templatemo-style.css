@@ -5,7 +5,9 @@ Reflux Template
 https://templatemo.com/tm-531-reflux
 
 */
-
+:root {
+--general-background-color: #99710dd9;  /*  #a43f49 */
+}
 @import url(fontawesome.css);
 @import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
 body {
@@ -130,7 +132,8 @@ html {
 .main-nav li:hover a,
 .main-nav li.active a {
     background: #fff;
-    color: #8c363e;
+    color: #6f550e;     /*  #8c363e;     */ 
+
 }
 
 /* Sidebar Menu */
@@ -182,7 +185,7 @@ html {
 
 .menu .social-network ul li a:hover {
     background-color: #fff;
-    color: #a43f49;
+    color:var(--general-background-color);
 }
 
 .menu .copyright-text {
@@ -227,7 +230,7 @@ html {
     left: 10%;
   -webkit-transition: -webkit-transform 233ms cubic-bezier(0, 0, 0.21, 1);
   -webkit-overflow-scrolling: touch;
-  background-color: #a43f49;
+  background-color:var(--general-background-color);  /* a43f49 */
   box-sizing: border-box;
   height: 100vh;  
   max-height: 100vh !important;
@@ -259,7 +262,7 @@ html {
     position: fixed;
     top: 0;
     left: 0;
-    color: #a43f49;
+    color: var(--general-background-color);
     background-color: #fff;
     width: 60px;
     height: 60px;
@@ -275,7 +278,7 @@ html {
 #menu-close {
     cursor: pointer;
     text-align: right;
-    color: #a43f49;
+    color:var(--general-background-color);
     background-color: #fff;
     width: 100%;
     height: 60px;
@@ -312,7 +315,7 @@ html {
 .section-heading .line-dec {
     width: 60px;
     height: 3px;
-    background-color: #a43f49;
+    background-color:var(--general-background-color);
     margin: 10px auto;
 }
 
@@ -331,7 +334,7 @@ html {
     display: inline-block;
     padding: 12px 20px;
     background-color: #fff;
-    color: #a43f49;
+    color: var(--general-background-color);
     font-size: 13px;
     font-weight: 800;
     letter-spacing: 0.5px;
@@ -340,7 +343,7 @@ html {
 }
 
 .white-button a:hover {
-    background-color: #a43f49;
+    background-color:var(--general-background-color);
     color: #fff;
 }
 
@@ -348,7 +351,7 @@ button {
     display: inline-block;
     padding: 10px 20px;
     background-color: #fff;
-    color: #a43f49;
+    color:var(--general-background-color);
     font-size: 12px;
     font-weight: 800;
     letter-spacing: 0.5px;
@@ -361,7 +364,7 @@ button {
 
 button:hover {
     outline: none;
-    background-color: #a43f49;
+    background-color:var(--general-background-color);
     color: #fff;
 }
 
@@ -509,8 +512,8 @@ section.my-work .section-heading {
 }
 
 .isotope-toolbar input[type="radio"]:checked + span {
-    color: #a43f49;
-    border-bottom: 2px solid #a43f49;
+    color: var(--general-background-color);
+    border-bottom: 2px solid var(--general-background-color);
 }
 
 .isotope-box {
@@ -592,7 +595,7 @@ figure.snip1321 span {
 figure.snip1321 i {
   position: relative!important;
   font-size: 18px;
-  background-color: #a43f49;
+  background-color: var(--general-background-color);   
   width: 40px;
   height: 40px;
   display: inline-block;
