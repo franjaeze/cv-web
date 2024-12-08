@@ -326,8 +326,38 @@ html {
     letter-spacing: 0.5px;
 }
 
+ 
 
+.experience-title {
+    margin-right:25px;
+    font-size: 20px;
+}
 
+.experience-subtitle {
+    font-weight:300;
+    font-size: 12px;
+}
+.experience-description {
+    font-weight:400;
+    font-size: 14px;
+    max-width: 500px;
+    text-align: center;
+}
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.align-container {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}
+.logo-img {
+    max-width: 20px;
+    border-radius: 15%;
+    margin-bottom:5px;
+}
 /* Buttons */
 
 .white-button a {
